@@ -1,16 +1,19 @@
 {
-  "name": "###NAME###",
-  "title": "###TITLE###",
-  "description": "###DESC###",
+  "name": "khaosvanadium",
+  "title": "Vanadium",
+  "description": "Adds vanadium ore, vanadium plates, vanadium carbide and rocket engine nozzles to the base game. Available after green science, vanadium and the various intermediates are used throughout the vanilla game.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.0.0",
-  "factorio_version": "2.0",
+  "version": "0.1.0",
+  "factorio_version": "2.1",
   "dependencies": [
-    "base >= 2.0.77",
+    "base >= 2.1.12",
+    "! space-age",
 
-    "khaosbash >= 1.2.0",
-    "khaoslib >= 1.19.0"
+    "khaoslib >= 2.2.0",
+
+    "! bztungsten",
+    "! bztungsten2"
   ],
   "package": {
     "ignore": [

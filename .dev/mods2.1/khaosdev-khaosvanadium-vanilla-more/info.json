@@ -1,15 +1,16 @@
 {
-  "name": "khaosdev-###NAME###-vanilla",
-  "title": "// DEV // ###TITLE### // Vanilla //",
+  "name": "khaosdev-khaosvanadium-vanilla-more",
+  "title": "// DEV // Vanadium // Vanilla // More //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
   "version": "0.0.0",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
     "base",
     "! elevated-rails",
     "! quality",
+    "! recycler",
     "! space-age",
 
     "khaosdev",
@@ -24,6 +25,16 @@
     "khaostransportgroup",
     "science-tab",
 
-    "###NAME###"
+    "+ khaosaluminium",
+    "+ khaosbasiccrusher",
+    "+ khaoscarbon",
+    "+ khaoschlorine",
+    "+ khaosfoundry",
+    "+ khaoslead",
+    "+ khaossilicon",
+    "+ khaostin",
+    "+ khaostitanium",
+    "khaosvanadium",
+    "+ khaoszirconium"
   ]
 }
