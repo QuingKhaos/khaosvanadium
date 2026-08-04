@@ -15,4 +15,5 @@ khaoslib_technology:load {
     },
   }
   :add_unlock_recipe("vanadium-plate")
+  :add_unlock_recipe("vanadium-carbide")
   :commit()

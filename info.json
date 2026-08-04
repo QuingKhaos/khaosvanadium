@@ -11,7 +11,10 @@
     "! space-age",
 
     "khaoslib >= 2.2.0",
+    "? khaosfoundry >= 0.1.0",
 
+    "! bzfoundry",
+    "! bzfoundry2",
     "! bztungsten",
     "! bztungsten2"
   ],

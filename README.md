@@ -4,7 +4,7 @@
 
 Adds vanadium ore, vanadium plates, vanadium carbide and rocket engine nozzles to Factorio. Modifies several recipes to use new resources and intermediates.
 
-Vanadium is mineable with water. Vanadium carbide can only be made in stone or steel furnaces or, if [Foundry](https://mods.factorio.com/mod/khaosfoundry) is enabled, with coke in any furnace or the foundry. If you prefer to play without biters and not produce military science, there's a mod setting to allow the rocketry tech to be researched without military science.
+Vanadium is mineable with water. Vanadium carbide can only be made in stone or steel furnaces or, if [Foundry](https://mods.factorio.com/mod/khaosfoundry) is enabled, with coke in the foundry. If you prefer to play without biters and not produce military science, there's a mod setting to allow the rocketry tech to be researched without military science.
 
 ## Remarks
 
