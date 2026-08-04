@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
-Date: ????
+Date: 2026-08-04
   Features:
     - Re-implement Tungsten from scratch as Vanadium.
