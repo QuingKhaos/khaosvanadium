@@ -16,3 +16,9 @@ require("__khaosvanadium__.prototypes.recipe.rocket-engine-nozzle")
 require("__khaosvanadium__.prototypes.recipe.copper-vanadium-plate")
 
 require("__khaosvanadium__.prototypes.technology.vanadium-processing")
+
+--- Either Copper-Vanadium plate if enabled, or just Vanadium plate if not.
+--- @type data.ItemID
+copper_vanadium_plate_or_vanadium_plate = settings.startup["khaosvanadium-more"].value and "copper-vanadium-plate" or "vanadium-plate"
+
+require("__khaosvanadium__.prototypes.compat.base")

@@ -54,6 +54,8 @@ files["prototypes/**/*.lua"] = {
     "default_circuit_wire_max_distance",
     -- __base__.prototypes.factoriopedia-util
     "make_resource",
+    -- custom
+    "copper_vanadium_plate_or_vanadium_plate",
   },
 }
 

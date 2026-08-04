@@ -11,7 +11,9 @@ local furnaces = {"stone-furnace", "steel-furnace"}
 
 --- @cast furnaces data.FurnacePrototype[]
 for _, furnace_name in ipairs(furnaces) do
+  --- @type data.FurnacePrototype
   local furnace = khaoslib_entity.get("furnace", furnace_name)
+
   furnace.crafting_categories = furnace.crafting_categories or {}
   if type(furnace.crafting_categories) ~= "table" then
     --- @diagnostic disable-next-line: assign-type-mismatch

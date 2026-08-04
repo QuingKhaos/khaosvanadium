@@ -16,5 +16,10 @@
                 "replace": "__khaosvanadium__.$1"
             }
         ]
+    },
+    "diagnostics": {
+      "globals": [
+        "copper_vanadium_plate_or_vanadium_plate"
+      ]
     }
 }
