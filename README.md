@@ -25,7 +25,3 @@ t.b.d.
 ## Credits
 
 Revamp of the original [Tungsten](https://mods.factorio.com/mod/bztungsten) mod by [brevven](https://mods.factorio.com/user/brevven), and incorparated changes from [cackling.fiend](https://mods.factorio.com/user/cackling.fiend)'s [fork](https://mods.factorio.com/mod/bztungsten2) of the original mod.
-
-## AI disclaimer
-
-- The icon for the rocket engine nozzle was generated with Google Gemini.
