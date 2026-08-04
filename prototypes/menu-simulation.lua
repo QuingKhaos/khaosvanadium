@@ -1,9 +1,7 @@
-data.raw["utility-constants"]["default"].main_menu_simulations = data.raw["utility-constants"]["default"].main_menu_simulations or {}
-
 -- For testing only
 -- data.raw["utility-constants"]["default"].main_menu_simulations = {}
 
-data.raw["utility-constants"]["default"].main_menu_simulations["vanadium-nozzle"] = {
+data.raw["utility-constants"]["default"].main_menu_simulations --[[@cast -?]]["vanadium-nozzle"] = {
   checkboard = false,
   length = 15 * second,
   save = "__khaosvanadium__/menu-simulations/vanadium-nozzle.zip",
