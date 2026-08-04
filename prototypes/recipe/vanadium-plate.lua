@@ -5,7 +5,7 @@ khaoslib_recipe:load {
   name = "vanadium-plate",
   subgroup = "raw-material",
   order = "a[smelting]-dc[vanadium-plate]",
-  enabled = true,
+  enabled = false,
   auto_recycle = false,
   allow_productivity = true,
   energy_required = 32/15,

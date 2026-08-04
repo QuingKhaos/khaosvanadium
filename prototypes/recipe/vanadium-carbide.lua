@@ -5,7 +5,7 @@ khaoslib_recipe:load {
   name = "vanadium-carbide",
   subgroup = "raw-material",
   order = "a[smelting]-dc[vanadium-carbide]",
-  enabled = true,
+  enabled = false,
   auto_recycle = false,
   allow_productivity = true,
   energy_required = 64/3,
