@@ -1,6 +1,6 @@
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 
-khaoslib_technology:load {
+local tech = khaoslib_technology:load {
   type = "technology",
   name = "vanadium-processing",
   order = "b-b",
@@ -16,4 +16,9 @@ khaoslib_technology:load {
   }
   :add_unlock_recipe("vanadium-plate")
   :add_unlock_recipe("vanadium-carbide")
-  :commit()
+
+if settings.startup["khaosvanadium-more"].value then
+  tech:add_unlock_recipe("copper-vanadium-plate")
+end
+
+tech:commit()

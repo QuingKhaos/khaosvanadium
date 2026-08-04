@@ -17,3 +17,11 @@ khaoslib_setting:load {
   default_value = false,
   order = "a[settings]-b[starting-patch]",
 } :commit()
+
+khaoslib_setting:load {
+  type = "bool-setting",
+  name = "khaosvanadium-more",
+  setting_type = "startup",
+  default_value = false,
+  order = "a[settings]-c[more-intermediates]",
+} :commit()
